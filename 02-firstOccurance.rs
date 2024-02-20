@@ -1,4 +1,4 @@
-//Given a sorted array of integers, implement a function that returns the index of the first occurrence of a given number
+//2. Given a sorted array of integers, implement a function that returns the index of the first occurrence of a given number
 fn find_first_occurrence(arr: &[i32], target: i32) -> Option<usize> {
     let mut count = 0;
     // iterating and count inc for indentifying the index
